@@ -19,7 +19,7 @@ logging.basicConfig(
 if __name__=="__main__":
     logging.info("logging has started")"""
 
-Theoritical concept
+"""Theoritical concept
 1 'import logging' - imports the logging module, 
     which provides functionality for logging messages
     in Python scripts.
@@ -48,4 +48,4 @@ Theoritical concept
 
 8 `logging.basicConfig(filename= LOG_FILE_PATH,format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",level = logging.INFO)` - 
     configures the logging system to write log messages to the file specified by `LOG_FILE_PATH`. The `format` parameter specifies the format for the 
-    log messages, and the `level` parameter sets the logging level to `INFO`.
+    log messages, and the `level` parameter sets the logging level to `INFO`."""
