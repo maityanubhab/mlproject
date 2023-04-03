@@ -1,4 +1,5 @@
 import sys
+from src.logger import logging
 
 """reason of use sys in below
 In the line 'error, error_detail: sys', 'sys' is used to 
